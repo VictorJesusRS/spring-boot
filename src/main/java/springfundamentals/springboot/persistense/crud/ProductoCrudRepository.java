@@ -1,4 +1,4 @@
-package springfundamentals.springboot.domain.repository;
+package springfundamentals.springboot.persistense.crud;
 
 import org.springframework.data.repository.CrudRepository;
 import springfundamentals.springboot.persistense.entity.Producto;
