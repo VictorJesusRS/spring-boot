@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "spring-fundamentals"
-version = "0.0.1-SNAPSHOT"
+version = "1.0"
 
 java {
 	sourceCompatibility = JavaVersion.VERSION_17
@@ -18,6 +18,8 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0")
+
 	runtimeOnly("org.postgresql:postgresql")
 
 	implementation("org.mapstruct:mapstruct:1.5.5.Final")
